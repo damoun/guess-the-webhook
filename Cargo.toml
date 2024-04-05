@@ -4,7 +4,7 @@ version = "1.0.0"
 edition = "2021"
 
 [dependencies]
-chrono = "0.4.34"
+chrono = "0.4.35"
 reqwest = { version = "0.11.26", features = ["blocking"] }
 serenity = { git = "https://github.com/serenity-rs/serenity.git", rev = "7f31a63a660e87a6f13ee2944aa9e8f3e4576e4f", default-features = false, features = ["rustls_backend", "model"] }
 tokio = { version = "1.36", features = ["macros", "rt-multi-thread"] }
